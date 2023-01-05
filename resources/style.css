@@ -1,0 +1,143 @@
+#wv-logo {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+#primary-colour {
+    background-color: #50b379;
+}
+
+#primary-colour-dark {
+    background-color: #3F9161;
+    width: 120px;
+}
+
+#primary-colour-light {
+    background-color: #96d1af;
+    width: 120px;
+}
+
+#secondary-colour {
+    background-color: #f8b125;
+}
+
+#secondary-colour-dark {
+    background-color: #E39907;
+    width: 120px;
+}
+
+#secondary-colour-light {
+    background-color: #fbce76;
+    width: 120px;
+}
+
+.section-header {
+    font-weight: 400;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.section {
+    border: 1px solid #e5e5e5;
+    border-radius: 7px;
+    margin: 20px auto;
+    width: 80%;
+    padding: 0px 10px;
+    display: flexbox;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Assistant', sans-serif;
+    box-shadow: 3px 10px 15px #f3f3f3;
+}
+
+.colour-group {
+    display: inline-flex;
+}
+
+.colour-block {
+    width: 200px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.colour-name {
+    left: 10px;
+    top: 10px;
+    font-weight: 700;
+}
+
+.hex {
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.fonts-section {
+    display: inline-flex;
+}
+
+.font-header {
+    font-size: 30px;
+    text-decoration: underline 1px;
+    text-underline-offset: 5px;
+    font-weight: 400;
+}
+
+.libre {
+    font-family: 'Libre Baskerville', serif;
+    float: left;
+}
+
+.assistant {
+    font-family: 'Assistant' sans-serif;
+    float: right;
+}
+
+.libre p {
+    font-size: 15px;
+}
+
+.footer-content {
+    font-family: 'Assistant', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #f0f0f0;
+}
+
+.footer-content li {
+    display: inline;
+}
+
+.footer-right {
+    float: right;
+    margin-right: 30px;
+}
+
+.footer-left {
+    float: left;
+}
+
+.page-header, .page-subheader {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+}
+
+.page-header {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+}
+
+.page-subheader {
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-weight: 200;
+}
